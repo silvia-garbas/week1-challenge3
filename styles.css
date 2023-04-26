@@ -51,7 +51,10 @@ body {
 
 h2 {
   margin: 0 10px;
+}
 
+.bought {
+margin:0 25px;
 }
 .h1-header,
 .icon {
