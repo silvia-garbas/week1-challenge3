@@ -1,33 +1,67 @@
 * {
   box-sizing: border-box;
 }
+html {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
+  height:100%;
+  width: 100%;
 }
+
 
 .list {
   list-style: none;
+  margin:0;
 }
 
-.header {
+.header-1 {
   background-color: rgb(18, 138, 118);
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.header2 {
+.header-2 {
+  color: white;
+  background-color: #4ac399;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: center;
   background-color: #4ac399;
 }
 
 .main {
   background-color: #f7c01c;
+  height: 100%;
+  width: 100%;
+  margin:0;
 }
 
+h2 {
+  margin:0;
+}
+.h1-header {
+  margin:0;
+}
 .form
 {
-  display:block;
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: stretch;
+}
+
+.name, .price{
+  font-size: 16px;
+  
 }
