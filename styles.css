@@ -1,9 +1,33 @@
-*
-{box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-.list{
-  
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
+.list {
+  list-style: none;
+}
 
+.header {
+  background-color: rgb(18, 138, 118);
+  color: white;
+}
+
+.header2 {
+  background-color: #4ac399;
+}
+
+.main {
+  background-color: #f7c01c;
+}
+
+.form
+{
+  display:block;
+  display: flex;
+  flex-direction: column;
+}
